@@ -1,0 +1,49 @@
+.detailed-view-container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.178);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detailed-view-content-wrapper {
+    width: 40vw;
+    min-height: 40vh;
+    background: white;
+    padding: 30px;
+    overflow: auto;
+}
+
+.detailed-view-content-wrapper .close-btn {
+    width: 20px;
+    height: 20px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}

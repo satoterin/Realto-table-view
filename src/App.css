@@ -1,0 +1,31 @@
+.table-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.table-container table {
+  border: 1px solid black;
+}
+
+.table-container table thead th {
+  background-color: yellow;
+  padding: 4px 10px;
+}
+
+.table-container table thead th:hover {
+  cursor: pointer;
+}
+
+.table-container table tr:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+.table-container table tr td {
+  text-align: center;
+  vertical-align: middle;
+}
